@@ -18,12 +18,12 @@ Desarrollada como proyecto personal mientras estudiaba Ingeniería en Computaci�
 
 ## Captura de la aplicación
 
-![Vista de la aplicación](assets/Vista%20Previa%201.png)
+![Vista de la aplicación](assets/Vista-Previa-1.png)
 
 ## Resultado del cifrado y descifrado
 
-![Resultado cifrado](assets/Resultado%201.png)
-![Resultado descifrado](assets/Resultado%202.png)
+![Resultado cifrado](assets/Resultado-1.png)
+![Resultado descifrado](assets/Resultado-2.png)
 
 ---
 
