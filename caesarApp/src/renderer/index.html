@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self';">
+  <title>Cifrado César</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+  <div class="container">
+
+    <h1>Herramienta de Cifrado César</h1>
+    <p class="subtitle">Encriptar o desencriptar texto instantáneamente</p>
+
+    <div class="card">
+
+      <textarea id="text" maxlength="500" placeholder="Escribe tu texto aquí..."></textarea>
+
+      <div class="counter">
+        <span id="charCount">0</span> / 500
+      </div>
+
+      <label class="section-title">Modo</label>
+
+      <div class="mode">
+        <label class="radio">
+          <input type="radio" name="mode" value="encrypt" checked>
+          Encriptar
+        </label>
+
+        <label class="radio">
+          <input type="radio" name="mode" value="decrypt">
+          Desencriptar
+        </label>
+      </div>
+
+      <label class="section-title">Desplazamiento</label>
+
+      <div class="slider">
+        <input type="range" id="shift" min="-25" max="25" value="0">
+        <span id="shiftValue">0</span>
+      </div>
+
+    </div>
+
+    <div class="result-card">
+      <h3>Resultado</h3>
+      <div id="result" class="result-box"></div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <img src="../../assets/ubbLogo.png" class="logo">
+      <div class="footer-text">
+        <strong>Benjamín Manríquez R.</strong>
+        <p>Hecha mientras era estudiante de la Universidad del Bío-Bío año 2026.</p>
+      </div>
+    </footer>
+
+  </div>
+
+  <script src="./renderer.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,133 @@
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  margin: 0;
+  padding: 30px;
+  background: linear-gradient(135deg, #1e293b, #0f172a);
+  color: white;
+}
+
+.container {
+  max-width: 720px;
+  margin: auto;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.subtitle {
+  text-align: center;
+  color: #9ca3af;
+  margin-bottom: 30px;
+}
+
+.card {
+  background: #0f172a;
+  padding: 20px;
+  border-radius: 12px;
+  border: 1px solid #334155;
+}
+
+.section-title {
+  display: block;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-size: 16px;
+  color: #94a3b8;
+}
+
+textarea {
+  width: 96%;
+  height: 130px;
+  font-size: 16px;
+  padding: 12px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  resize: none;
+  background: #1f2937;
+  color: white;
+}
+
+.counter {
+  text-align: right;
+  font-size: 12px;
+  margin-top: 5px;
+  color: #9ca3af;
+}
+
+.mode {
+  margin: 20px 2;
+  display: flex;
+  gap: 55px;
+}
+
+.radio {
+  cursor: pointer;
+}
+
+.slider {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+input[type="range"] {
+  flex: 1;
+}
+
+#shiftValue {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.result-card {
+  margin-top: 10px;
+  background: #020617;
+  padding: 20px;
+  border-radius: 12px;
+  border: 1px solid #334155;
+}
+
+.result-card h3 {
+  margin: 0 0 10px;
+}
+
+#result {
+  min-height: 60px;
+  word-break: break-word;
+}
+
+.result-box {
+  background: #020617;
+  padding: 15px;
+  border-radius: 10px;
+  border: 1px solid #334155;
+  min-height: 60px;
+  font-size: 15px;
+  line-height: 1.4;
+}
+
+/* Footer */
+.footer {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  opacity: 0.85;
+  border-top: 1px solid #334155;
+  padding-top: 15px;
+}
+
+.logo {
+  width: 200px;
+  height: 200px;
+  object-fit: contain;
+}
+
+.footer-text p {
+  margin: 2px 0 0 0;
+  font-size: 12px;
+  color: #94a3b8;
+}
